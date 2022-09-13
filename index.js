@@ -1,7 +1,7 @@
-let score = [19, 19];
+let score = [0, 0];
 let endScore = 21;
 
-window.onload = insertHtml(); console.log(checkEven(score[0]), checkEven(score[1]))
+window.onload = insertHtml(); console.log(checkEven(0))
 
 function increase(team) {
     score[team]++
